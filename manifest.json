@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "Twitter GoTo Advanced Search",
+  "description": "Opens a new tab with the Advanced Search page on Twitter",
+  "version": "1.0",
+  "author": "Wojtek Witkowski <hi@wojtek.im>",
+  "homepage_url": "https://github.com/pugson/chrome-twitter-goto-advanced-search",
+
+  "browser_action": {
+    "default_icon": "twitter.png",
+    "default_title": "Twitter GoTo Advanced Search"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+}
+}
